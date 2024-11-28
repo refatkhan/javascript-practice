@@ -16,16 +16,31 @@
 //take input from user
 // Take string input from the user
 
-var num1 = parseInt(prompt("enter number 1"));
-var num2 = parseInt(prompt("enter number 2"));
-var opertor = prompt("enter operator");
-if (opertor == "+") {
-    console.log(num1 + num2);
-}else if (opertor == "-") {
-    console.log((num1) - t(num2));}
-else if (opertor == "*") {
-     console.log((num1) * (num2));}
-else if (opertor == "/") {
-     console.log((num1) / (num2));}
-else{ 
-     console.log("invalid operator");}
+// var num1 = parseInt(prompt("enter number 1"));
+// var num2 = parseInt(prompt("enter number 2"));
+// var opertor = prompt("enter operator");
+// if (opertor == "+") {
+//      console.log(num1 + num2);
+// } else if (opertor == "-") {
+//      console.log((num1) - t(num2));
+// }
+// else if (opertor == "*") {
+//      console.log((num1) * (num2));
+// }
+// else if (opertor == "/") {
+//      console.log((num1) / (num2));
+// }
+// else {
+//      console.log("invalid operator");
+// }
+
+//loop 
+// for (var i = 0; i<=10; i++){
+//      console.log("hello nais" + i);
+// }
+var i = 1;
+while (i <= 10) {
+     console.log("hello nais" + i);
+     i++;
+}
+document.write("hello nais");

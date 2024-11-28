@@ -38,9 +38,9 @@
 // for (var i = 0; i<=10; i++){
 //      console.log("hello nais" + i);
 // }
-var i = 1;
-while (i <= 10) {
-     console.log("hello nais" + i);
-     i++;
-}
-document.write("hello nais");
+// var i = 1;
+// while (i <= 10) {
+//      document.write("hello nais: " + i + "<br>");
+//      i++;
+// }
+// document.write("hello successfull");

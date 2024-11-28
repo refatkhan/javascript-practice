@@ -14,6 +14,18 @@
 // console.log(len);
 
 //take input from user
-var text = prompt("Enter your name");
-len = text.length;
-console.log(len);
+// Take string input from the user
+
+var num1 = parseInt(prompt("enter number 1"));
+var num2 = parseInt(prompt("enter number 2"));
+var opertor = prompt("enter operator");
+if (opertor == "+") {
+    console.log(num1 + num2);
+}else if (opertor == "-") {
+    console.log((num1) - t(num2));}
+else if (opertor == "*") {
+     console.log((num1) * (num2));}
+else if (opertor == "/") {
+     console.log((num1) / (num2));}
+else{ 
+     console.log("invalid operator");}

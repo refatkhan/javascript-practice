@@ -9,6 +9,11 @@
 //     console.log(typeof(a));
 
 //string length
-var text = "hello";
+// var text = "hello";
+// len = text.length;
+// console.log(len);
+
+//take input from user
+var text = prompt("Enter your name");
 len = text.length;
 console.log(len);

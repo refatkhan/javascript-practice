@@ -16,7 +16,7 @@
 //take input from user
 // Take string input from the user
 
-// var num1 = parseInt(prompt("enter number 1"));
+// var num1 = (prompt("enter number 1"));
 // var num2 = parseInt(prompt("enter number 2"));
 // var opertor = prompt("enter operator");
 // if (opertor == "+") {
@@ -44,3 +44,7 @@
 //      i++;
 // }
 // document.write("hello successfull");
+//tenerary operator
+var number = Number(prompt("enter number"));
+var result = number>0? "positive":number<0?"negative" : "zero";
+document.write(result);

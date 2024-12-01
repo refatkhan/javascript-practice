@@ -63,10 +63,11 @@
 //iife function
 (function add(num1, num2){
     var result = num1*num2;
-    console.log(result);
-
+    console.log("The multipication: "+result);
 })(5,6);
 
-function nais(){
-    
-}
+var nias = function add(num1,num2){
+    var result1 = num1+num2;
+    console.log("the addition of two numbers: "+result1);
+};
+nias(4,5);

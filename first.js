@@ -72,15 +72,30 @@
 // };
 // nias(4,5);
 
-const inta  =[1,2.3,6];
-console.log(inta);
-var nais = ["b","a","l"]
-console.log(nais);
-nais.push("d");
-console.log(nais);
-nais.pop()
-console.log(nais);
-nais.pop()
-console.log(nais);
-var add = inta.concat(nais);
-console.log(add)
+// const inta  =[1,2.3,6];
+// console.log(inta);
+// var nais = ["b","a","l"]
+// console.log(nais);
+// nais.push("d");
+// console.log(nais);
+// nais.pop()
+// console.log(nais);
+// nais.pop()
+// console.log(nais);
+// var add = inta.concat(nais);
+// console.log(add)
+
+var choice = parseInt(prompt("How much digit want to add:"));
+var num = new Array();
+for(var i = 1; i<=choice; i++){
+    num[i] = parseInt(prompt("Enter the number: "));
+}
+
+
+    var sum = 0;
+    for (var i = 1; i<=choice; i++){
+       sum = sum+num[i];
+    }
+    console.log("Total addition is: "+ sum);
+
+

@@ -61,13 +61,26 @@
 
 
 //iife function
-(function add(num1, num2){
-    var result = num1*num2;
-    console.log("The multipication: "+result);
-})(5,6);
+// (function add(num1, num2){
+//     var result = num1*num2;
+//     console.log("The multipication: "+result);
+// })(5,6);
 
-var nias = function add(num1,num2){
-    var result1 = num1+num2;
-    console.log("the addition of two numbers: "+result1);
-};
-nias(4,5);
+// var nias = function add(num1,num2){
+//     var result1 = num1+num2;
+//     console.log("the addition of two numbers: "+result1);
+// };
+// nias(4,5);
+
+const inta  =[1,2.3,6];
+console.log(inta);
+var nais = ["b","a","l"]
+console.log(nais);
+nais.push("d");
+console.log(nais);
+nais.pop()
+console.log(nais);
+nais.pop()
+console.log(nais);
+var add = inta.concat(nais);
+console.log(add)

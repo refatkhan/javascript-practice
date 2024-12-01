@@ -45,6 +45,16 @@
 // }
 // document.write("hello successfull");
 //tenerary operator
-var number = Number(prompt("enter number"));
-var result = number>0? "positive":number<0?"negative" : "zero";
-document.write(result);
+// var number = Number(prompt("enter number"));
+// var result = number>0? "positive":number<0?"negative" : "zero";
+// document.write(result);
+
+//basic function
+function result(){
+    var num = 10;
+    var nam2 = 11;
+    result = num + nam2;
+    document.write("Result: "+ result);
+
+}
+result();

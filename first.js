@@ -50,11 +50,9 @@
 // document.write(result);
 
 //basic function
-function result(){
-    var num = 10;
-    var nam2 = 11;
-    result = num + nam2;
-    document.write("Result: "+ result);
+function result(num1, num2){
+    var result1 = num1 + num2;
+    document.write("Result: "+ result1);
 
 }
-result();
+result(5,6);

@@ -50,11 +50,23 @@
 // document.write(result);
 
 //basic function
-function result(num1, num2){
-    var result1 = num1 + num2;
-   return result1;
+// function result(num1, num2){
+//     var result1 = num1 + num2;
+//    return result1;
 
+// }
+// console.log("Result is : "+result(5,9));
+// var a = result(5,9);
+// console.log("this is a boom: "+ a);
+
+
+//iife function
+(function add(num1, num2){
+    var result = num1*num2;
+    console.log(result);
+
+})(5,6);
+
+function nais(){
+    
 }
-document.write("Result is : "+result(5,9));
-var a = result(5,9);
-document.write("<br>"+"this is a boom: "+ a);

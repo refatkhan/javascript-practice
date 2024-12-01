@@ -52,7 +52,9 @@
 //basic function
 function result(num1, num2){
     var result1 = num1 + num2;
-    document.write("Result: "+ result1);
+   return result1;
 
 }
-result(5,6);
+document.write("Result is : "+result(5,9));
+var a = result(5,9);
+document.write("<br>"+"this is a boom: "+ a);

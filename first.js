@@ -85,17 +85,17 @@
 // var add = inta.concat(nais);
 // console.log(add)
 
-var choice = parseInt(prompt("How much digit want to add:"));
-var num = new Array();
-for(var i = 1; i<=choice; i++){
-    num[i] = parseInt(prompt("Enter the number: "));
-}
+// var choice = parseInt(prompt("How much digit want to add:"));
+// var num = new Array();
+// for(var i = 1; i<=choice; i++){
+//     num[i] = parseInt(prompt("Enter the number: "));
+// }
 
 
-    var sum = 0;
-    for (var i = 1; i<=choice; i++){
-       sum = sum+num[i];
-    }
-    console.log("Total addition is: "+ sum);
+//     var sum = 0;
+//     for (var i = 1; i<=choice; i++){
+//        sum = sum+num[i];
+//     }
+//     console.log("Total addition is: "+ sum);
 
-
+console.log("test01")

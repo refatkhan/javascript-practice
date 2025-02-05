@@ -99,3 +99,7 @@
 //     console.log("Total addition is: "+ sum);
 
 console.log("test01")
+var first = 5;
+var second = 4.5;
+var total = first+second;
+console.log(total)

@@ -100,6 +100,8 @@
 
 console.log("test01")
 var first = 5;
-var second = 4.5;
+var second = parseInt('22')  
 var total = first+second;
-console.log(total)
+console.log(total) 
+var a = isNaN(1);
+console.log(a)

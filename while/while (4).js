@@ -6,3 +6,10 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 
 
 /*programming hero*/
+let num = 5;
+let i = 1;
+
+while (i <= 10) {
+    console.log(`${num} x ${i} = ${num * i}`);
+    i++;
+}

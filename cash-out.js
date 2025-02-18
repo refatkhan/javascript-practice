@@ -5,5 +5,5 @@ function cashOut( money ) {
     let charge = money * 1.75/100;
     return charge;
 }
-const result = cashOut("101");
+const result = cashOut(101);
 console.log(result);

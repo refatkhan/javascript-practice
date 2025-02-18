@@ -21,6 +21,6 @@ function  electionResult( votes ) {
     }
     
 }
-const check = ["mango", "banana", "mango", "banana", "mango"];
+const check = "mango , banana";
 const result = electionResult(check);
 console.log(result);
